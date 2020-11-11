@@ -1,7 +1,7 @@
 {
   "radius": {
     "server": {
-      "host": [ "192.168.0.25" ], // array of host addresses, chosen at random currently 
+      "host": [ "192.168.0.25" ],
       "port": 1812,
       "secret": "abc123",
       "timeout": 5000
