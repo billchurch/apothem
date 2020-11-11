@@ -1,0 +1,33 @@
+{
+  "name": "apothem",
+  "version": "1.0.0",
+  "description": "REST (server) to RADIUS (client) gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version",
+    "startdev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billchurch/apothem.git"
+  },
+  "author": "Bill Church bill@f5.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/billchurch/apothem/issues"
+  },
+  "homepage": "https://github.com/billchurch/apothem#readme",
+  "dependencies": {
+    "config": "^3.3.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "serve-favicon": "^2.5.0",
+    "wavy": "^1.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "standard-version": "^9.0.0"
+  }
+}
